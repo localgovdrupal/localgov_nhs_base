@@ -1,0 +1,12 @@
+body {
+  --color-accent: #005eb8;
+  /*
+    This is the same as the default font-stack used on the NHS website.
+    We need to figure out if we can use Frutiger or not for free. If so,
+    we can create an @font-face for it; if not, we can use Arial and remove
+    Frutiger from the font stack list here.
+  */
+  --font-primary: Frutiger, Arial, sans-serif;
+  --font-secondary: var(--font-primary);
+  --line-height: 1.5;
+}
