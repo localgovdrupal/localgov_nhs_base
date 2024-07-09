@@ -1,4 +1,9 @@
 variables:
   css:
     base:
-      css/variables.css: {}
+      css/base/variables.css: {}
+
+sidebar:
+  css:
+    theme:
+      css/components/sidebar.css: {}

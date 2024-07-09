@@ -1,0 +1,9 @@
+/*
+  @file Theming for the sidebar region.
+*/
+
+.sidebar .lgd-region__inner > *,
+.blog-channel__sidebar > *,
+.newsroom__sidebar > * {
+  border: var(--border);
+}
