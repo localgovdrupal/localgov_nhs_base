@@ -1,6 +1,30 @@
 body {
-  --color-accent: #005eb8;
+
   /*
+    Colours
+  */
+  --color-accent: #005eb8;
+  --color-accent-2: #ffeb3b;
+  --color-green: #007f3b;
+  --color-red: #d5281b;
+  --color-orange: #ffb81C;
+  --color-yellow: #ffeb3b;
+  --color-blue: #005eb8;
+
+  /*
+    Grey Scale
+  */
+  --color-white: #fff;
+  --color-grey-lightest: #f0f4f5;
+  --color-grey-lighter: #d8dde0;
+  --color-grey-light: #aeb7bd;
+  --color-grey-medium: #768692;
+  --color-grey-dark: #4c6272;
+  --color-black: #212b32;
+
+  /*
+    Fonts
+
     This is the same as the default font-stack used on the NHS website.
     We need to figure out if we can use Frutiger or not for free. If so,
     we can create an @font-face for it; if not, we can use Arial and remove
@@ -8,5 +32,7 @@ body {
   */
   --font-primary: Frutiger, Arial, sans-serif;
   --font-secondary: var(--font-primary);
+
   --line-height: 1.5;
+  --border-color: var(--color-grey-lighter);
 }
