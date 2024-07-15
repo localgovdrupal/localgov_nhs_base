@@ -1,0 +1,11 @@
+.breadcrumbs {
+  padding-block-start: var(--spacing-small);
+  padding-block-end: var(--spacing-smaller);
+}
+.breadcrumbs__item {
+  margin-right: var(--spacing-smaller);
+}
+
+.breadcrumbs__item + .breadcrumbs__item::before {
+  margin-right: var(--spacing-smaller);
+}

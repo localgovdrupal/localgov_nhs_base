@@ -32,8 +32,13 @@ body {
   */
   --font-primary: Frutiger, Arial, sans-serif;
   --font-secondary: var(--font-primary);
+  --font-size: 1.125rem; /* 18px */
 
   --line-height: 1.5;
   --border-color: var(--color-grey-lighter);
   --sidebar-exposed-form-bg-color: var(--color-white);
+
+  --breadcrumbs-divider: "›";
+  --breadcrumbs-border: 0;
+  --breadcrumbs-background-color: var(--color-grey-lightest);
 }

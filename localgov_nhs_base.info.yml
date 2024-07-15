@@ -6,9 +6,11 @@ base theme: "localgov_base"
 
 libraries-extend:
   localgov_base/global:
-    - localgov_nhs_base/variables
+    - localgov_nhs_base/global
   localgov_base/sidebar:
     - localgov_nhs_base/sidebar
+  localgov_base/breadcrumbs:
+    - localgov_nhs_base/breadcrumbs
 
 regions:
   tabs: "Tabs"

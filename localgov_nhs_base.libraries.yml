@@ -1,9 +1,15 @@
-variables:
+global:
   css:
     base:
       css/base/variables.css: {}
+      css/base/base.css: {}
 
 sidebar:
   css:
     theme:
       css/components/sidebar.css: {}
+
+breadcrumbs:
+  css:
+    theme:
+      css/components/breadcrumbs.css: {}
